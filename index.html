@@ -6,7 +6,9 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet" />
-  <title>Dev server</title>
+  <meta name="description" content="My portfolio website" />
+  <meta name="keywords" content="web design, html, css, javascript" />
+  <title>Dev Portfolio</title>
 </head>
 
 <body>
@@ -18,7 +20,7 @@
         <li><a href="#contact" class="header__link">Contact</a></li>
         <li class="header__line"></li>
         <li>
-          <button class="header__sun" id="theme-toggle">
+          <button aria-label="theme-toggle btn" class="header__sun" id="theme-toggle">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -28,7 +30,7 @@
         </li>
         <li><a class="header__resume btn" href="#">Resume</a></li>
       </ul>
-      <button class="header__bars">
+      <button aria-label="mobile nav button" class="header__bars">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -45,7 +47,7 @@
         <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
         <li class="mobile-nav__link-line"></li>
         <li>
-          <button id="theme-toggle" class="mobile-nav__sun">
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile-nav__sun">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -101,7 +103,7 @@
       <h3 class="featured__subtitle">Featured project</h3>
       <div class="featured__wrapper">
         <h2 class="featured__title">Coding Roar</h2>
-        <a class="featured__link" href="#">
+        <a aria-label="link featured project" class="featured__link" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round"
